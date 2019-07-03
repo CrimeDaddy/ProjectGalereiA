@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="2550.7246376811595" y="1577.6785714285713"/>
         </scene>
-        <!--View Controller-->
+        <!--Filters View Controller-->
         <scene sceneID="oHH-ax-8Ok">
             <objects>
-                <viewController id="L5m-nu-fyd" sceneMemberID="viewController">
+                <viewController id="L5m-nu-fyd" customClass="FiltersViewController" customModule="my_work1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tfP-Mp-oxy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYB-d4-odk">
                                 <rect key="frame" x="116.66666666666669" y="266.66666666666669" width="181" height="54"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="Художники"/>
+                                <state key="normal" title="Художники">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <segue destination="rOg-3p-rLc" kind="show" id="NjX-s4-7di"/>
                                 </connections>
@@ -168,7 +170,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oWy-cK-DJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3771.0144927536235" y="-879.24107142857144"/>
+            <point key="canvasLocation" x="3770" y="-606"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="yzm-6F-wgi">
